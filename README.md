@@ -5,7 +5,8 @@ Here we develop scPGI-finder, a computational framework that identifies gene-pai
 
 The code and data here are intended to:
 - demonstrate the full epithelial scPGI pipeline on a subset of LUAD cells,
-- compute cell-level “hub subnet scores” for selected genes,
+- compute cell-level “hub subnet scores of epithelial scPGI” for selected genes,
+- compute cell-level **ME-scPGI** scores,
 - compute **ME-scPGI** scores in bulk and cell-line expression data,
 - compute **TCR-scPGI** scores in bulk expression data.
 
@@ -24,8 +25,9 @@ scPGI-finder/
 │  ├─ ME-scPGI_score_cell.R
 │  └─ TCR-scPGI_score_bulk.R
 ├─ data/
-│  ├─ scRNA_Epithelial_5000.rds
+│  ├─ scRNA_Epithelial_1000.rds
 │  ├─ Epithelial-specific gene.rds
+│  ├─ Epithelial_scPGI.rds
 │  ├─ cell_proliferation_genelist.rds
 │  ├─ TCGA_LUAD_Expression_matrix.rds
 │  ├─ ME-scPGI.txt

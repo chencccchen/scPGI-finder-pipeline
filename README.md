@@ -30,4 +30,5 @@ scPGI-finder/
 │  ├─ TCGA_LUAD_Expression_matrix.rds
 │  ├─ ME-scPGI.txt
 │  └─ TCR-scPGI.rds
-└─ README.md
+├─ README.md
+└─ workflow.jpg
